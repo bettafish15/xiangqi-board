@@ -1,0 +1,16 @@
+export enum PIECE {
+  BlackAdvisor = 'bA',
+  BlackBishop = 'bB',
+  BlackCannon = 'bC',
+  BlackGeneral = 'bK',
+  BlackHorse = 'bN',
+  BlackPawn = 'bP',
+  BlackChariot = 'bR',
+  RedAdvisor = 'rA',
+  RedBishop = 'rB',
+  RedCannon = 'rC',
+  RedGeneral = 'rK',
+  RedHorse = 'rN',
+  RedPawn = 'rP',
+  redChariot = 'rR',
+}

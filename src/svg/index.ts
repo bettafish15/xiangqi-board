@@ -1,0 +1,15 @@
+export { ReactComponent as BoardImg } from './xiangqiboard.svg';
+export { ReactComponent as blackAdvisor } from './pieces/bA.svg';
+export { ReactComponent as blackBishop } from './pieces/bB.svg';
+export { ReactComponent as blackCannon } from './pieces/bC.svg';
+export { ReactComponent as blackGeneral } from './pieces/bK.svg';
+export { ReactComponent as blackHorse } from './pieces/bN.svg';
+export { ReactComponent as blackPawn } from './pieces/bP.svg';
+export { ReactComponent as blackChariot } from './pieces/bR.svg';
+export { ReactComponent as redAdvisor } from './pieces/rA.svg';
+export { ReactComponent as redBishop } from './pieces/rB.svg';
+export { ReactComponent as redCannon } from './pieces/rC.svg';
+export { ReactComponent as redGeneral } from './pieces/rK.svg';
+export { ReactComponent as redHorse } from './pieces/rN.svg';
+export { ReactComponent as redPawn } from './pieces/rP.svg';
+export { ReactComponent as redChariot } from './pieces/rR.svg';
