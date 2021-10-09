@@ -20,10 +20,14 @@
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks"],
   "rules": {
+    "react/require-default-props": "off", // Since we do not use prop-types
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "_" }
+    ],
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "no-shadow": "off",
