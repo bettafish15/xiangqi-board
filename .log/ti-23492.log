@@ -1,0 +1,19 @@
+[21:12:40.115] Global cache location '/home/bettafish15/.cache/typescript/4.4', safe file path '/home/bettafish15/Documents/personalProject/xiangqi-board/node_modules/typescript/lib/typingSafeList.json', types map path /home/bettafish15/Documents/personalProject/xiangqi-board/node_modules/typescript/lib/typesMap.json
+[21:12:40.116] Processing cache location '/home/bettafish15/.cache/typescript/4.4'
+[21:12:40.116] Trying to find '/home/bettafish15/.cache/typescript/4.4/package.json'...
+[21:12:40.116] Loaded content of '/home/bettafish15/.cache/typescript/4.4/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.600"}}
+[21:12:40.116] Loaded content of '/home/bettafish15/.cache/typescript/4.4/package-lock.json'
+[21:12:40.116] Finished processing cache location '/home/bettafish15/.cache/typescript/4.4'
+[21:12:40.116] Process id: 23503
+[21:12:40.116] NPM location: /home/bettafish15/.nvm/versions/node/v14.17.0/bin/npm (explicit '--npmLocation' not  provided)
+[21:12:40.116] validateDefaultNpmLocation: false
+[21:12:40.117] Npm config file: /home/bettafish15/.cache/typescript/4.4/package.json
+[21:12:40.117] Updating types-registry npm package...
+[21:12:40.117] Exec: /home/bettafish15/.nvm/versions/node/v14.17.0/bin/npm install --ignore-scripts types-registry@latest
+[21:12:40.729]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 517ms
+
+found 0 vulnerabilities
+
+[21:12:40.729] Updated types-registry npm package

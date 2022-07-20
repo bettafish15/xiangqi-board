@@ -17,6 +17,7 @@ interface Props {
   transform?: string;
   opacity?: number;
   onClick?(): void;
+  onMouseDown?(): void;
 }
 
 const SvgIcon: React.FC<Props> = props => {

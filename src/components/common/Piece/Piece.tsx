@@ -5,6 +5,7 @@ import { PIECE } from 'types';
 
 interface Props {
   pieceName: PIECE;
+  onMouseDown: () => void;
 }
 
 const getIcon = (
@@ -50,9 +51,9 @@ const getIcon = (
   }
 };
 
-const Piece: React.FC<Props> = ({ pieceName }) => {
+const Piece: React.FC<Props> = ({ pieceName, onMouseDown }) => {
   const Icon = getIcon(pieceName);
-  return <Svg Icon={Icon} />;
+  return <Svg Icon={Icon} onMouseDown={onMouseDown} />;
 };
 
 export default Piece;

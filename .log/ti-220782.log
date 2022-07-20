@@ -1,0 +1,44 @@
+[21:20:29.505] Global cache location '/home/bettafish15/.cache/typescript/4.4', safe file path '/home/bettafish15/Documents/personalProject/xiangqi-board/node_modules/typescript/lib/typingSafeList.json', types map path /home/bettafish15/Documents/personalProject/xiangqi-board/node_modules/typescript/lib/typesMap.json
+[21:20:29.506] Processing cache location '/home/bettafish15/.cache/typescript/4.4'
+[21:20:29.506] Trying to find '/home/bettafish15/.cache/typescript/4.4/package.json'...
+[21:20:29.507] Loaded content of '/home/bettafish15/.cache/typescript/4.4/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.601"}}
+[21:20:29.507] Loaded content of '/home/bettafish15/.cache/typescript/4.4/package-lock.json'
+[21:20:29.507] Finished processing cache location '/home/bettafish15/.cache/typescript/4.4'
+[21:20:29.507] Process id: 220789
+[21:20:29.507] NPM location: /home/bettafish15/.nvm/versions/node/v14.17.0/bin/npm (explicit '--npmLocation' not  provided)
+[21:20:29.507] validateDefaultNpmLocation: false
+[21:20:29.507] Npm config file: /home/bettafish15/.cache/typescript/4.4/package.json
+[21:20:29.507] Updating types-registry npm package...
+[21:20:29.507] Exec: /home/bettafish15/.nvm/versions/node/v14.17.0/bin/npm install --ignore-scripts types-registry@latest
+[21:20:30.257]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 667ms
+
+found 0 vulnerabilities
+
+[21:20:30.257] Updated types-registry npm package
+[22:45:06.240] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board","kind":"discover"}
+[22:45:06.255] Loaded safelist from types map file '/home/bettafish15/Documents/personalProject/xiangqi-board/node_modules/typescript/lib/typesMap.json'
+[22:45:06.255] Explicitly included types: []
+[22:45:06.256] Inferred typings from unresolved imports: []
+[22:45:06.256] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/bower_components","/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/node_modules"]}
+[22:45:06.256] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/bower_components","/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/node_modules"]}
+[22:45:06.256] DirectoryWatcher:: Added:: WatchInfo: /home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/bower_components
+[22:45:06.256] DirectoryWatcher:: Added:: WatchInfo: /home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:45:06.257] Elapsed:: 1.0375289991497993ms DirectoryWatcher:: Added:: WatchInfo: /home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:45:06.257] DirectoryWatcher:: Added:: WatchInfo: /home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/node_modules
+[22:45:06.257] DirectoryWatcher:: Added:: WatchInfo: /home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:45:06.257] Elapsed:: 0.10033000260591507ms DirectoryWatcher:: Added:: WatchInfo: /home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[22:45:06.258] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[22:45:06.258] Response has been sent.
+[22:45:06.258] No new typings were requested as a result of typings discovery
+[22:45:15.159] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board","kind":"discover"}
+[22:45:15.159] Explicitly included types: []
+[22:45:15.159] Inferred typings from unresolved imports: []
+[22:45:15.159] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/bower_components","/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/node_modules"]}
+[22:45:15.159] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/bower_components","/home/bettafish15/Documents/personalProject/xiangqi-board/src/components/Board/node_modules"]}
+[22:45:15.159] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[22:45:15.159] Response has been sent.
+[22:45:15.159] No new typings were requested as a result of typings discovery
