@@ -52,7 +52,6 @@ const Board: React.FC = () => {
               key={`${column}${index / 9 + 1}`}
               pieceName={el as PIECE}
               onMouseDown={() => {
-                console.log('test');
                 if (isInMove) {
                   setFen(
                     calculateMove(fen, `${move} ${column}${index / 9 + 1}`),
